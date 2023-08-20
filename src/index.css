@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-size: 14px;
+}
+
+.shadow {
+  background: 0% 0% no-repeat padding-box padding-box rgb(255, 255, 255);
+  box-shadow: rgb(217, 235, 253) 0px 2px 10px;
+}
+.border-0 {
+  border: 0px !important;
+}
